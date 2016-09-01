@@ -1,0 +1,16 @@
+exam_id: cs101_mcq
+title: "CS101 MCQ Sheet"
+points_per_question: 1
+questions:
+  - id: Q1
+    type: mcq
+    prompt: "Binary search complexity"
+    choices: ["O(n)", "O(log n)", "O(n log n)", "O(1)"]
+  - id: Q2
+    type: mcq
+    prompt: "BFS uses which structure?"
+    choices: ["Stack", "Queue", "Priority Queue", "Set"]
+  - id: Q3
+    type: mcq
+    prompt: "Hash map average lookup"
+    choices: ["O(n)", "O(log n)", "O(1)", "O(n^2)"]

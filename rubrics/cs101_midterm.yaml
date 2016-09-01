@@ -1,0 +1,27 @@
+exam_id: cs101_midterm
+title: "CS101 Midterm - Fundamentals"
+points_per_question: 1
+questions:
+  - id: Q1
+    type: mcq
+    prompt: "What is the time complexity of binary search on a sorted array?"
+    choices: ["O(n)", "O(log n)", "O(n log n)", "O(1)"]
+  - id: Q2
+    type: short_answer
+    prompt: "Define a stable sorting algorithm in one sentence."
+    keywords_any:
+      - "does not change the relative order"
+      - "preserves order of equal elements"
+    min_similarity: 0.55
+  - id: Q3
+    type: mcq
+    prompt: "Which data structure is used for BFS traversal?"
+    choices: ["Stack", "Queue", "Priority Queue", "Set"]
+  - id: Q4
+    type: short_answer
+    prompt: "Give one practical use-case for a hash map."
+    keywords_any:
+      - "fast lookup"
+      - "key-value"
+      - "dictionary"
+    min_similarity: 0.45

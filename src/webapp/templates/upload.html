@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+  <h2>Upload</h2>
+  <form method="post" enctype="multipart/form-data">
+    <label>Scan Image (PNG/JPG):</label><br/>
+    <input type="file" name="scan"><br/><br/>
+    <label>Student Stub (e.g., sample_short_001):</label><br/>
+    <input type="text" name="student_stub"><br/><br/>
+    <button type="submit" class="btn">Process</button>
+  </form>
+</div>
+{% endblock %}
